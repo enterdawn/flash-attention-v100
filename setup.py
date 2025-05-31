@@ -167,6 +167,6 @@ setup(
         "torch",
         "einops",
         "packaging",
-        "ninja",
+#        "ninja",
     ],
 )
