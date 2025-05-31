@@ -874,7 +874,7 @@ namespace config {
         using Register2SharedCopyFp16Acc = Global2SharedCopyQuery;
 
         // register to global via shared memory
-        using MNK = typename MMA_TN::TiledShape_MNK;
+        using MNK = typename MMA_TN::Shape_MNK;
 
         static constexpr int kThreadNum = size(MMA_TN{});
         static constexpr int backward_kShmSize = sizeof(ComputeType) * cosize(SmemLayoutAcc{}) * 2 + 
