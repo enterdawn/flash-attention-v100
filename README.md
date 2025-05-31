@@ -21,6 +21,7 @@ include_dirs=[
 
 修改完毕后，执行命令进行源码安装
 ```bash
+pip install ninja
 python setup.py install --user
 ```
 
